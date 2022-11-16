@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+:root {
+  --bgcolor: #1c1c1c;
+  --accolor: #FFCC00
+}
+
+
+body {
+  color: #fff;
+  background-color: var(--bgcolor);
+}
+
+.hashtag {
+  font-size: 19px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.link-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome {
+  margin-top: 10px;
+}
+
+.link-main img {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.link-main .sla {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--bgcolor);
+  background-color: var(--accolor);
+  width: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  height: 50px;
+  border: solid 1px var(--accolor);
+  padding-top: 15px;
+  transition: 500ms;
+}
+
+a {
+  color: var(--bgcolor);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+  color: var(--bgcolor);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover:visited{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--accolor);
+  text-decoration: none;
+}
+
+.link-main .sla:hover {
+  color: var(--accolor);
+  font-family: Arial, Helvetica, sans-serif;
+  transform: translateY(-10px);
+  background-color: var(--bgcolor);
+}
+
+.link-main .sla:hover a {
+  color: var(--accolor);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.fotter {
+  background-color: #0f0f0f;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+
+.fotter p {
+  text-align: center;
+  margin-top: 10px;
+}
